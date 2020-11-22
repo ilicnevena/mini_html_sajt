@@ -1,0 +1,31 @@
+/* CSS Document */
+td {
+	border: 2px solid #686B7D;
+	vertical-align: middle;
+}
+th {
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #f3b54a;
+	color: #ffffff;
+}
+.table {
+	margin-top: 20px;
+	border: 15px solid #f3b54a;
+}
+td, th {
+	padding: 15px;
+}
+tr:nth-child(even) {
+	background: #E6E7EA;
+}
+tr:nth-child(odd) {
+	background: #D8D9DE;
+}
+th:first-child {
+	width: 40%;
+}
+td:nth-child(3) {
+	white-space: nowrap;
+}

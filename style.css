@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after, .clearfix:before {
+	content: "";
+	table-layout: fixed;
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+/********************* My CSS Document ****************************/
+body {
+	background-color: #FEFEFE;
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+	width: 1200px;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+nav {
+	width: 30%;
+	background-color: #ADAEB3;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 30px;
+	box-sizing: border-box;
+	position: relative;
+	left: 75px;
+	top: 30px;
+	display: inline-block;
+}
+main {
+	float: right;
+	width: calc(70% - 40px);
+	box-sizing: border-box;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	padding: 80px;
+	border: #f3b54a solid;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+a:hover {
+	background-color: transparent;
+}
+.active {
+	border-right: 3px solid #ffffff;
+}
+.link1, .link2, .link3, .link4 {
+	padding: 15px;
+	width: 100%;
+	display: inline-block;
+}
+.link1 {
+	background-color: #393B45;
+	border-top-left-radius: 20px;
+}
+.link2 {
+	background-color: #6E7889;
+}
+.link3 {
+	background-color: #D8D9DE;
+}
+.link4 {
+	background-color: #f3b54a;
+	border-bottom-left-radius: 20px;
+}
+hr {
+	width: 100%;
+	background-color: #000000;
+	height: 2px;
+	margin-bottom: 20px;
+}
+h1 {
+	font-size: 40px;
+	width: 600;
+}
+p {
+	font-size: 18px;
+	padding: 10px 0;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 30px;
+}
+span {
+	font-weight: bold;
+}
